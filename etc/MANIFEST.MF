@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Carl van Denzen Pilight Camel MQTT gateway 
+Bundle-SymbolicName: nl.vandenzen.mijnsensors1
+Bundle-Version: 1.0.3
+Bundle-Activator: nl.vandenzen.mijnsensors1.MyRouteBuilder
+Bundle-Vendor: Carl van Denzen
+Bundle-Localization: plugin
+Import-Package: org.osgi.framework, 
+ org.apache.camel, org.apache.camel.impl, org.apache.camel.builder, 
+ org.apache.camel.builder.xml, org.apache.camel.model, 
+ org.apache.camel.component, org.apache.camel.core.osgi
